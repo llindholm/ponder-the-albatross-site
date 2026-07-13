@@ -13,6 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-touch-icon.png",
+  },
   title: "Ponder the Albatross",
   description: "Over Hill & Hollow - new music from Ponder the Albatross",
 };
