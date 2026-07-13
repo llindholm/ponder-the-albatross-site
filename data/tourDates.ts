@@ -1,16 +1,5 @@
 export const tourDates = [
-  {
-    date: "July 11, 2026",
-    city: "Louisville, KY",
-    venue: "The Fox Den - Battle of the Strings Semi-Finals",
-    ticketUrl: "https://www.thefoxdenlouisville.com/events/dwp-battle-of-the-strings-c6b746bf",
-  },
-  {
-    date: "July 18, 2026",
-    city: "Louisville, KY",
-    venue: "The Fox Den - Battle of the Strings FINALS",
-    ticketUrl: "https://www.thefoxdenlouisville.com/events/dwp-battle-of-the-strings-c6b746bf",
-  },
+  
   {
     date: "August 27, 2026",
     city: "Trinidad, CO",
@@ -45,6 +34,12 @@ export const tourDates = [
     date: "September 5, 2026",
     city: "Madison, TN",
     venue: "Dee's Country Cocktail Lounge",
+    ticketUrl: "#",
+  },
+  {
+    date: "November 6-8, 2026",
+    city: "Brooksville, FL",
+    venue: "Fox Fam Jam @ Florida Sand Music Ranch",
     ticketUrl: "#",
   },
 ];
