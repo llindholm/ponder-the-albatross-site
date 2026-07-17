@@ -21,14 +21,15 @@ export default function Hero() {
 
                 <p className="hero__release">
                     <span>A New Chapter Begins</span>
-                    <span>August 2026</span>
-                </p>
 
+                </p>
+                {/*
                 <a href="#listen" className="hero__button">
                     Begin the Journey
                 </a>
+            
+*/}
             </div>
-
             <div className="hero__road" />
             <div className="hero__scroll-line" />
         </section>
