@@ -301,46 +301,51 @@ body {
 .nav {
   position: fixed;
   top: 0.85rem;
-  left: 0;
-  right: 0;
+  left: 50%;
+  right: auto;
   z-index: 9999;
-  width: 100%;
-  padding: 0 3rem;
+
+  width: calc(100% - 6rem);
+  padding: 0 0;
 
   display: flex;
   justify-content: flex-end;
   align-items: center;
 
+  transform: translateX(-50%) translateY(0);
+
   background: transparent;
   border: 1px solid transparent;
   border-radius: 999px;
   backdrop-filter: blur(0);
+  -webkit-backdrop-filter: blur(0);
+
   transition:
     top 260ms ease,
-    left 260ms ease,
-    right 260ms ease,
     width 260ms ease,
+    min-height 260mx ease,
     padding 260ms ease,
-    background 260ms ease,
-    border 260ms ease,
-    border-radius 260ms ease,
+    background-color 260ms ease,
+    border-color 260ms ease,
     backdrop-filter 260ms ease,
     transform 260ms ease;
+
   pointer-events: auto;
 }
 
 .nav--scrolled {
   top: 1rem;
-  left: 50%;
-  right: auto;
-  transform: translateX(-50%) translateY(4px);
   width: min(920px, calc(100% - 2rem));
   padding: 0.85rem 1rem;
+
   justify-content: space-between;
+
+  transform: translateX(-50%) translateY(4px);
+
   background: rgba(20, 40, 36, 0.48);
-  border: 1px solid rgba(224, 185, 87, 0.22);
-  border-radius: 999px;
+  border-color: rgba(224, 185, 87, 0.22);
   backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 }
 
 .nav__brand {
@@ -924,43 +929,60 @@ body {
     display: none;
   }
 
-  .nav {
-    top: 1rem;
-    left: 50%;
-    right: auto;
-    transform: translateX(-50%);
-    width: 100%;
-    padding: 0 1rem;
-    justify-content: center;
-  }
+    .nav {
+      top: 1rem;
+      left: 50%;
+      right: auto;
+      width: calc(100% - 2rem);
+      min-height: 40px;
+      padding: 0;
+      justify-content: center;
+      transform: translateX(-50%) translateY(0);
+    }
 
-  .nav__brand {
-    display: none;
-  }
+    .nav__brand {
+      display: none;
+    }
 
-  .nav__links {
-    gap: 1rem;
-  }
+    .nav__links {
+      gap: 0.75rem;
 
-  .nav__links a {
-    font-size: 0.6rem;
-    letter-spacing: 0.12em;
-  }
+      transition:
+        gap 260ms ease,
+        transform 260ms ease;
+    }
 
-  .nav--scrolled {
-    min-height: 58px;
-    width: calc(100% - 1rem);
-    padding: 1rem 1.25rem;
-  }
+    .nav__links a {
+      padding: 0.15rem 0;
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
 
-  .nav--scrolled .nav__links {
-    gap: 1.5rem;
-  }
+      transition:
+        color 220ms ease,
+        font-size 260ms ease,
+        letter-spacing 260ms ease,
+        padding 260ms ease;
+    }
 
-  .nav--scrolled .nav__links a {
-    font-size: 0.72rem;
-    letter-spacing: 0.14em;
-    padding: 0.35rem 0;
+    .nav--scrolled {
+      top: 1rem;
+      width: calc(100% - 1rem);
+      min-height: 58px;
+      padding: 1rem 1.25rem;
+
+      transform: translateX(-50%) translateY(4px);
+    }
+
+    .nav--scrolled .nav__links {
+      gap: clamp(0.75rem, 3vw, 1.5rem);
+      transform: scale(1.02);
+    }
+
+    .nav--scrolled .nav__links a {
+      padding: 0.35rem 0;
+      font-size: clamp(0.62rem, 2.5vw, 0.72rem);
+      letter-spacing: 0.14em;
+    }
   }
 
   .intro,
@@ -996,7 +1018,7 @@ body {
     grid-template-columns: 1fr;
     gap: 0.35rem;
   }
-}
+
 
 @keyframes heroDrift {
   from {
