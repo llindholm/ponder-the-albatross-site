@@ -67,7 +67,7 @@ export default function ContactSection() {
                 </div>
                 <div className="contact__social-section">
                     <p className="contact__social-heading">
-                        Follow the journey
+                        Follow The Journey
                     </p>
 
                     <div className="contact__socials">

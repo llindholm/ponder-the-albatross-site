@@ -14,7 +14,7 @@ export const tourDates = [
   },
   {
     date: "August 29, 2026",
-    city: "Kremmling(ish), CO",
+    city: "Kremmling, CO",
     venue: "Gore Fest",
     ticketUrl: "#",
   },
