@@ -34,40 +34,34 @@ export default function EpkPage() {
                         <p className="epk-section__label">The Band</p>
 
                         <h2>
-                            Colorado-bred string music
+                            Colorado-bred string music 
                             <br />
                             pushed beyond the expected.
                         </h2>
 
                         <div className="epk-intro__bio">
                             <p>
-                                Somewhere in the vastness of space and time, where Gypsy Punk, Jam Band,
-                                and New Grass collide with cosmic force, there is Ponder the Albatross.
+                                Some bands are formed. Others are forged through miles of highway, trials and triumphs, crowded festival grounds, and countless stages scattered across America’s back roads.
                             </p>
 
                             <p>
-                                Formed in 2015, Ponder the Albatross has built its sound on ecstatic
-                                mandolin and guitar, searing fiddle, driving bass, and thunderous drums —
-                                creating a high-energy blend of Rock, Gypsy, Grass, improvisation, and
-                                wanderlust.
+                                Ponder the Albatross belongs firmly in that tradition.
                             </p>
 
                             <p>
-                                The band has spent years on the road throughout the U.S. and Rocky
-                                Mountains, turning mountain bars, theaters, and festivals into shared
-                                experiences built around movement, spontaneity, and connection. Every
-                                performance carries the same restless energy: music shaped by the road,
-                                the sea, the trees, and the next horizon.
+                                Blending Gypsy Punk, Bluegrass, Folk, Rock & Roll, and Americana into a sound that feels both timeless and untamed, Ponder the Albatross has built a reputation for creating music that is equal parts celebration, storytelling, and adventure. Their songs carry the spirit of wanderers and dreamers, drawing inspiration from mountain towns, dusty highways, and the communities found along the journey.
                             </p>
 
                             <p>
-                                Even with the members now spread across the country, Ponder continues to
-                                reunite, tour, and create with eyes fixed forward — the next release, the
-                                next stage, the next crowd, the next note.
+                                Their upcoming release was recorded at the legendary Sonic Ranch Recording Studio in Tornillo, Texas and produced by Ted Hutt. Engineered by Ryan Mall, mixed by Ted Hutt and Ryan Mall, mastered by Dave Cooley, and featuring artwork by Michael Carina, the project captures the band’s signature blend of raw energy, heartfelt storytelling, and chemistry developed through years of performing together.
                             </p>
 
-                            <p className="epk-intro__signoff">
-                                We Ride.
+                            <p>
+                                More than a band, Ponder the Albatross represents a way of life. Their music speaks to the spirit of wanderlust, community, and the freedom found on the open road. Whether performing on a festival stage, in a mountain-town tavern, or beneath an open sky, they create moments that feel both deeply personal and universally familiar.
+                            </p>
+
+                            <p>
+                                For those who have spent time chasing horizons, collecting stories, and searching for something real, Ponder the Albatross provides the soundtrack.
                             </p>
                         </div>
                     </div>
@@ -196,7 +190,7 @@ export default function EpkPage() {
                         <h2>Built for the stage.</h2>
 
                         <p>
-                            From Colorado stages to festivals across the US, Ponder the Albatross has built its sound where it belongs — live.
+                            From Colorado mountain stages to festivals across the country, Ponder the Albatross has built its sound where it belongs — live.
                         </p>
                     </div>
 
@@ -209,9 +203,9 @@ export default function EpkPage() {
                         </div>
 
                         <div className="epk-live__item">
-                            <span className="epk-live__type">Venue</span>
-                            <h3>Cervantes&apos; Other Side</h3>
-                            <p>Denver, Colorado</p>
+                            <span className="epk-live__type">Festival</span>
+                            <h3>SXSW</h3>
+                            <p>Austin, TX</p>
                         </div>
 
                         <div className="epk-live__item">
@@ -252,15 +246,47 @@ export default function EpkPage() {
 
                         <div className="epk-live__item">
                             <span className="epk-live__type">Festival</span>
-                            <h3>Sunshine Get Down Music Festival</h3>
+                            <h3>Riverhawk Music Festival</h3>
                             <p>Brooksville, FL</p>
                         </div>
 
                         <div className="epk-live__item">
-                            <span className="epk-live__type">Venue</span>
-                            <h3>Larimer Lounge</h3>
-                            <p>Denver, Colorado</p>
+                            <span className="epk-live__type">Festival</span>
+                            <h3>Magnolia Summerfest</h3>
+                            <p>Seattle, Washington</p>
                         </div>
+
+                        <div className="epk-live__item">
+                            <span className="epk-live__type">Festival</span>
+                            <h3>ARISE Music Festival</h3>
+                            <p>Boone, Colorado</p>
+                        </div>
+
+                        <div className="epk-live__item">
+                            <span className="epk-live__type">Festival</span>
+                            <h3>World of Nations Festival</h3>
+                            <p>Jacksonville, Florida</p>
+                        </div>
+                    </div>
+                    <div className="epk-live__artists">
+                        <p className="epk-live__artists-label">
+                            Shared the Stage With
+                        </p>
+
+                        <div className="epk-live__artists-featured">
+                            <span>Kitchen Dwellers</span>
+                            <span>Andy Frasco &amp; The U.N.</span>
+                            <span>Squirrel Nut Zippers</span>
+                            <span>Shaggy</span>
+                            <span>Horseshoes &amp; Hand Grenades</span>
+                            <span>Reverend Peyton&apos;s Big Damn Band</span>
+                        </div>
+
+                        <p className="epk-live__artists-more">
+                            Trout Steak Revival · Shawn James · Brad Parsons &amp; Starbird ·
+                            MarchFourth Marching Band · Tejon Street Corner Thieves · Opal Agafia ·
+                            Groovement · Mountain Sprout · Spoonfed Tribe
+                        </p>
                     </div>
                 </div>
             </section>

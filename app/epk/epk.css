@@ -438,6 +438,47 @@
     color: rgba(245, 242, 235, 0.58);
 }
 
+.epk-live__artists {
+    margin-top: 80px;
+    padding-top: 48px;
+    border-top: 1px solid rgba(245, 242, 235, 0.16);
+}
+
+.epk-live__artists-label {
+    margin: 0 0 28px;
+    color: #b68a52;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.epk-live__artists-featured {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 32px;
+    max-width: 1100px;
+}
+
+.epk-live__artists-featured span {
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    line-height: 1.25;
+}
+
+.epk-live__artists-featured span:not(:last-child)::after {
+    content: "·";
+    margin-left: 32px;
+    color: #b68a52;
+}
+
+.epk-live__artists-more {
+    max-width: 1000px;
+    margin: 28px 0 0;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: rgba(245, 242, 235, 0.52);
+}
+
 @media (max-width: 800px) {
     .epk-live {
         padding: 80px 16px 90px;
