@@ -34,7 +34,7 @@ export default function EpkPage() {
                         <p className="epk-section__label">The Band</p>
 
                         <h2>
-                            Colorado-bred string music 
+                            Colorado-bred string music
                             <br />
                             pushed beyond the expected.
                         </h2>
