@@ -35,7 +35,7 @@ export default function EpkPage() {
 
                         <h2>
                             Colorado-bred string music
-                            <br />
+                            <br />{" "}
                             pushed beyond the expected.
                         </h2>
 
