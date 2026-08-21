@@ -304,6 +304,24 @@ export default function EpkPage() {
                         </p>
                     </div>
 
+                    <p className="epk-assets__photo-credit">
+                        Photography by{" "}
+                        <a
+                            href="https://www.instagram.com/arkansrob/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Rob O&apos;Leary
+                        </a>
+                        {" "}· <a
+                            href="https://www.instagram.com/arkansrob/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            @arkansrob
+                        </a>
+                    </p>
+
                     <div className="epk-assets__photos">
                         <div className="epk-assets__photo">
                             <img
@@ -311,9 +329,13 @@ export default function EpkPage() {
                                 alt="Ponder the Albatross press photo"
                             />
 
-                            <a href="/images/epk/photos/ponder-press-01.jpg" download>
-                                Download High-Res
-                            </a>
+                            <div className="epk-assets__photo-meta">
+                                <a href="/images/epk/photos/ponder-press-01.jpg" download>
+                                    Download High-Res
+                                </a>
+
+                                <span>Photo: Rob O&apos;Leary · @arkansrob</span>
+                            </div>
                         </div>
 
                         <div className="epk-assets__photo">
@@ -322,9 +344,13 @@ export default function EpkPage() {
                                 alt="Ponder the Albatross press photo"
                             />
 
-                            <a href="/images/epk/photos/ponder-press-02.jpg" download>
-                                Download High-Res
-                            </a>
+                            <div className="epk-assets__photo-meta">
+                                <a href="/images/epk/photos/ponder-press-02.jpg" download>
+                                    Download High-Res
+                                </a>
+
+                                <span>Photo: Rob O&apos;Leary · @arkansrob</span>
+                            </div>
                         </div>
 
                         <div className="epk-assets__photo">
@@ -333,9 +359,13 @@ export default function EpkPage() {
                                 alt="Ponder the Albatross press photo"
                             />
 
-                            <a href="/images/epk/photos/ponder-press-03.jpg" download>
-                                Download High-Res
-                            </a>
+                            <div className="epk-assets__photo-meta">
+                                <a href="/images/epk/photos/ponder-press-03.jpg" download>
+                                    Download High-Res
+                                </a>
+
+                                <span>Photo: Rob O&apos;Leary · @arkansrob</span>
+                            </div>
                         </div>
                     </div>
 

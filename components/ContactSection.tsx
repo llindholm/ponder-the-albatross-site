@@ -103,8 +103,22 @@ export default function ContactSection() {
                     <span />
                 </div>
 
+                
+
                 <footer className="footer">
                     <p>© 2026 Ponder the Albatross</p>
+
+                    <p className="footer__credit">
+                    Photography by{" "}
+                    <a
+                        href="https://www.instagram.com/arkansrob/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Rob O’Leary
+                    </a>
+                </p>
+                
                     <p>See you somewhere down the road.</p>
                 </footer>
             </div>
