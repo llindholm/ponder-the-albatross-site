@@ -12,12 +12,12 @@ export default function IntroSection() {
           <p className="intro__eyebrow">A New Chapter</p>
 
           <h2 className="intro__title">
-            The road begins with a new single.
+            The road begins with our debut album.
           </h2>
 
           <p className="intro__copy">
-            Our first single from <em>Over Hill &amp; Hollow</em> is now
-            available! The next chapter for Ponder the Albatross opens...
+            <em>Over Hill and Hollow</em> is now
+            available wherever your stream your music! The new chapter for Ponder the Albatross opens...
           </p>
         </div>
 
@@ -27,21 +27,21 @@ export default function IntroSection() {
 
             <div className="intro__streaming-links">
               <a
-                href="https://open.spotify.com/track/2mUgLtJuZz5pIhbHBCnvvP?si=48a92e9832844ced"
+                href="https://open.spotify.com/album/7xPg8fyz8pBDFEpOQOkkNE?si=UXPEupv7Q6epDzoU4AifqQ"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="intro__streaming-link"
-                aria-label="Listen to Holy Road on Spotify"
+                aria-label="Listen to Over Hill and Hollow on Spotify"
               >
                 Spotify
               </a>
 
               <a
-                href="https://music.apple.com/us/song/holy-road/6790982183"
+                href="https://music.apple.com/us/album/over-hill-and-hollow/6817860049"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="intro__streaming-link"
-                aria-label="Listen to Holy Road on Apple Music"
+                aria-label="Listen to Over Hill and Hollow on Apple Music"
               >
                 Apple Music
               </a>
